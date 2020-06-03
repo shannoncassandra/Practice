@@ -1,0 +1,13 @@
+def red_rum(text):
+    wordlist = text.lower().split()
+    
+    first = wordlist[0]
+    second = wordlist[1]
+    
+    return first[0]==second[0]
+    
+
+
+def red_rum(text):
+    wordlist = text.lower().split()
+    return wordlist[0][0]==wordlist[1][0]
