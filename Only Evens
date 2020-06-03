@@ -1,0 +1,5 @@
+#args means that you can put any number of numbers. args takes in a variable number of arguments
+#run by only_evens(1,2,3)
+
+def only_evens(*args):
+    return([i for i in args if i%2 == 0])
