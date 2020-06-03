@@ -1,0 +1,25 @@
+#run by acct1 = Account('Jose',100)
+#run separately after by acct1.owner and acct1.balance
+#acct1.deposit(100) or acct1.withdraw(100)
+
+class Account:
+    
+    def __init__(self,owner,balance):
+        
+        self.owner = owner
+        print('Account owner: {}'.format(owner))
+        self.balance = balance
+        print('Account balance: ${}'.format(balance))
+        
+    def deposit(self,amount):
+        
+        self.balance = self.balance + amount
+        print('Deposit Accepted')
+        
+    def withdraw(self,amount):
+        
+        if self.balance - amount <0:
+            print('Funds Unavailable')
+        else:
+            self.balance = self.balance - amount
+            print('Withdrawal Accepted')
