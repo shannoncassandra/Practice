@@ -1,3 +1,4 @@
 #To run, type greeting('Shannon')
+
 def greeting(name):
     print('Hello {}'.format(name))
