@@ -1,0 +1,6 @@
+#the ' ' in before join includes a space. You can put anything there to separate the words
+
+def master_yoda(text):
+    wordlist = text.split()
+    reversed_wordlist = wordlist[::-1]
+    return ' '.join(reversed_wordlist)
