@@ -5,3 +5,10 @@ def old_macdonald(text):
     last_letters = text[4:]
     
     print(first_letter.upper() + next_letters + fourth_letter.upper() + last_letters)    
+
+
+def old_macdonald(text):
+    first_half = text[:3]
+    second_half = text[3:]
+    
+    print(first_half.capitalize() + second_half.capitalize())
