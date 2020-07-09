@@ -1,0 +1,6 @@
+#mulitply each letter by 3. ex) 'hello' = 'hhheeellllllooo'
+def paper_doll(text):
+    result = ''
+    for char in text:
+        result += char*3
+    return result
