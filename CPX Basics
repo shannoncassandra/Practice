@@ -1,3 +1,5 @@
+# https://www.digikey.com/en/maker/projects/circuitpython-made-easy-on-circuit-playground-express/4d50de0ed2b6427b92e50e1a60165d1e
+
 # cpx.play_tone(494, 1) A
 # cpx.play_tone(523, 1) B
 
